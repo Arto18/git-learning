@@ -285,7 +285,7 @@ Git хранит таблицу соответствий хеш → информ
 	graph LR;
 		untracked -- "git add" --> staged;
   		staged    -- "git commit"     --> tracked/comitted;
-		tracked/commited -- "Изменения" --> modified;
+		tracked/comitted -- "Изменения" --> modified;
 		modified -- "git add" --> staged;
 		staged -- "Изменения" --> modified;
 ```
